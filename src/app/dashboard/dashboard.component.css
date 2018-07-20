@@ -1,0 +1,132 @@
+.dashboard-page {}
+
+.dashboard-head-img {
+  background-image: url(/../assets/imgs/dashboard-head.jpg);
+  background-size: cover;
+  height: 340px;
+}
+
+.home-bg-overlay {
+  /*background-color: #929292;*/
+}
+
+.ui.sticky {
+  position: static;
+  -webkit-transition: none;
+  transition: none;
+  z-index: 800;
+}
+
+.right {
+  float: right;
+}
+
+.header-link {
+  padding: 4px 4px;
+}
+
+.lg-h-btn {
+  color: #fff!important;
+}
+
+.c-account-btn {
+  background: 0 0!important;
+  border: 2px solid #fff!important;
+  color: #fff!important;
+}
+
+.h-city-main {
+  background-size: cover;
+  padding: 25px 0 40px;
+  background-position: bottom center;
+  z-index: 6;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.logo-home {
+  height: 120px;
+  width: 120px;
+  line-height: 128px;
+  margin: 0 auto;
+}
+
+.home-location-section {
+  /*    position: static;
+    -webkit-transition: none;
+    transition: none;
+    z-index: 800;*/
+}
+
+.home-location-wrapper {
+  /*    margin: 0 auto;*/
+}
+
+.home-suggestion-message{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.home-form-wrapper {
+  /*        padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1160px;*/
+  text-align: center;
+  color: black;
+}
+.menu-wrapper{
+    padding: 50px 6px;
+}
+.home-count-message{
+     text-align: center;
+    font-weight: bold;
+    color:black;
+    font-size: 40px;
+    padding-top: 50px;   
+}
+.home-dishes-count{
+    color:#ffbd2f;
+}
+.home-welcome-message{
+    text-align: center;
+    font-weight: bold;
+    color:gray;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.image-home-content{
+    background-color: white;
+        border-radius: 40px;
+
+    height: 320px;
+  /*  position: relative;*/
+}
+.home-bg-menu{
+    background-size: cover;
+    background-position: center center; 
+    display: block;
+    height: 210px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.image-con-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:#414549;
+    padding-top: 15px;
+}
+.image-con-message{
+    text-align: center;
+     color:gray;   
+}

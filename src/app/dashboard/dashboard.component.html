@@ -1,0 +1,126 @@
+<mat-toolbar class="frango-navbar-header">
+  <img class="menu-logo" src="assets/imgs/redLogo.png">
+</mat-toolbar>
+<div class="dashboard-page" class="dashboard-head-img">
+	<div class="dashboard-head-img">
+		<div class="home-bg-overlay">
+			<div id="sticky_header" class="ui sticky">
+				<header class="header" id="header">
+					
+						<div id="login-navigation" class="login__container right">
+							<div class="header-link">
+								<div class="button-row">
+								</div>
+				   				  <button mat-button class="lg-h-btn">Login</button>
+				                  <button mat-stroked-button isRoundButton="true"
+				                  class="c-account-btn" color="primary">
+				                  		Create Account
+				              	  </button>
+			      		    </div>
+						</div>
+					
+				</header>
+			</div>
+			<div class="h-city-main p-relative" id="zimagery-container" 
+				style="color: #929292;">
+				<div class="logo-home">
+					<img class="menu-logo" src="assets/imgs/homeLogo.png">
+				</div>
+				<div class="home-location-section">
+					<div class="home-location-wrapper">
+						<div class="home-suggestion-message">
+							<h2>Please Select Nearest Location</h2>
+						</div>
+						<div class="home-form-wrapper">
+							<form> 
+							  <mat-form-field>
+							    <mat-select placeholder="" [(ngModel)]="selectedValue" 
+							    panelClass="example-panel-red"
+							    name="food">
+							      <mat-option *ngFor="let food of foods" [value]="food.value">
+							        {{food.viewValue}}
+							      </mat-option>
+							    </mat-select>
+							  </mat-form-field>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="menu-conainer">
+		<div class="container-fluid">
+			<div class="home-count-message">
+				WELCOME TO FRANGO 
+			</div>
+			<div class="home-welcome-message">
+				For Chicken Lovers
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="menu-wrapper">	
+			<div class="row">
+			 
+			  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+			  	<div class="image-home-content">			  		
+			  		<div class="home-bg-menu" 
+			        	[ngStyle]="{'background-image':'url(/../assets/imgs/periperi.jpg)'}">
+			        </div>
+			        <div class="image-con-header">
+			        	<div>Peri Peri</div>
+			        </div>
+			        <div class="image-con-message">
+			        	Steamed and Grilled
+			        </div>
+			  	</div> 	
+			  </div>
+			  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+			    <div class="image-home-content">			  		
+			  		<div class="home-bg-menu" 
+			        	[ngStyle]="{'background-image':'url(/../assets/imgs/pizza.jpg)'}">
+			        </div>
+			        <div class="image-con-header">
+			        	<div>Pizzas</div>
+			        </div>
+			        <div class="image-con-message">
+			        	Extra toppings are available
+			        </div>
+			  	</div>
+			  </div>
+			  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+			    <div class="image-home-content">			  		
+			  		<div class="home-bg-menu" 
+			        	[ngStyle]="{'background-image':'url(/../assets/imgs/mealdealNew.jpg)'}">
+			        </div>
+			        <div class="image-con-header">
+			        	<div>Meal Deals</div>
+			        </div>
+			        <div class="image-con-message">
+			        	All meals are served
+			        </div>
+			  	</div>
+			  </div>
+			  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+			    <div class="image-home-content">			  		
+			  		<div class="home-bg-menu" 
+			        	[ngStyle]="{'background-image':'url(/../assets/imgs/burger.jpg)'}">
+			        </div>
+			        <div class="image-con-header">
+			        	<div>Burgers</div>
+			        </div>
+			        <div class="image-con-message">
+			        	Served with free salad
+			        </div>
+			  	</div>
+			  </div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
